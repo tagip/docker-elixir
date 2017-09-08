@@ -13,6 +13,5 @@ RUN mix local.hex --force && \
 # Clone hex and install locally
 RUN git clone https://github.com/tagip/hex.git && \
   cd hex && \
-  git checkout custom-timeout-90s && \
   mix deps.get && \
   mix install
