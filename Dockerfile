@@ -1,4 +1,4 @@
-FROM elixir:1.4
+FROM elixir:1.5
 
 # Install dependencies
 RUN apt-get update && \
